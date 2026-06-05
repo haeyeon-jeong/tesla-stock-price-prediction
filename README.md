@@ -99,6 +99,7 @@ The pipeline includes:
   Evaluate on:
    - 2023 test split
    - January 2024 forecasting period
+     
   Metrics:
    - R²
    - MSE
@@ -120,7 +121,7 @@ The TF-IDF + EMA model achieved the best January 2024 forecasting performance, d
 ---
 
 ## Project Structure
-
+```
 tesla-stock-price-prediction/
 │
 ├── data/
@@ -143,6 +144,7 @@ tesla-stock-price-prediction/
 │   └── Tesla Stock Price Prediction.pdf
 │
 └── README.md
+```
 
 ---
 
@@ -171,9 +173,6 @@ The script will:
 * Generate lag, SMA, EMA, sentiment, and TF-IDF features
 * Train stock-only and news-enhanced forecasting models
 * Evaluate model performance and generate comparison plots
-
-```
-```
 
 ---
 
