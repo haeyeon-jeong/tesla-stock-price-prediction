@@ -124,6 +124,10 @@ The TF-IDF + EMA model achieved the best January 2024 forecasting performance, d
 ```
 tesla-stock-price-prediction/
 │
+├── codes/
+│   ├── tesla_stock_prediction.ipynb (notebook version)
+│   └── tesla_stock_prediction.py
+│
 ├── data/
 │   ├── combined_tesla_news_clean.csv
 │   ├── nbc_tesla_news_clean.csv
@@ -133,12 +137,6 @@ tesla-stock-price-prediction/
 │   ├── nbc_tesla_news_scrape.py
 │   ├── nytimes_tesla_news_scrape.py
 │   └── tesla_news_filtered.py
-│
-├── notebooks/
-│   └── tesla_stock_prediction.ipynb
-│
-├── src/
-│   └── tesla_stock_prediction.py
 │
 ├── report/
 │   └── Tesla Stock Price Prediction.pdf
