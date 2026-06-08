@@ -81,7 +81,7 @@ The pipeline includes:
      - TextBlob
    - Aggregate news features by day
 
-3.Time-Series Feature Engineering
+3. Time-Series Feature Engineering
   Generate:
    - Lagged closing prices
    - SMA (10-day, 20-day)
