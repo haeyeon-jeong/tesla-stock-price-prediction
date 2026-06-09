@@ -46,29 +46,26 @@ The pipeline includes:
      - TextBlob
    - Aggregate news features by day
 
-3. Time-Series Feature Engineering
-   
-  Generate:
+3. Time-Series Feature Engineering  
+Generate:
    - Lagged closing prices
    - SMA (10-day, 20-day)
    - EMA (10-day, 20-day)
    - Price range metrics
    - Volume-based indicators
 
-4. Model Training
-   
-  Train and compare:
+4. Model Training  
+Train and compare:
    - Baseline stock-only regression models
    - Sentiment-enhanced models
    - TF-IDF-enhanced models
 
 5. Evaluation
-   
-  Evaluate on:
+Evaluate on:
    - 2023 test split
    - January 2024 forecasting period
          
-  Metrics:
+Metrics:
    - R²
    - MSE
      
