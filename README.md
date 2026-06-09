@@ -32,13 +32,13 @@ The scraped datasets were cleaned, deduplicated, merged, and filtered into a uni
 
 The pipeline includes:
 
-1. Data Collection  
+### 1. Data Collection  
    - Download Tesla historical stock prices using Yahoo Finance
    - Scrape Tesla-related news articles from NBC News
    - Collect business and technology articles from The New York Times API
    - Merge and clean all news sources
 
-2. NLP Processing
+### 2. NLP Processing
    - Create combined article text using titles and summaries
    - Generate TF-IDF representations
    - Calculate sentiment scores using:
@@ -46,8 +46,7 @@ The pipeline includes:
      - TextBlob
    - Aggregate news features by day
 
-3. Time-Series Feature Engineering  
-
+### 3. Time-Series Feature Engineering  
 Generate:
    - Lagged closing prices
    - SMA (10-day, 20-day)
@@ -55,15 +54,13 @@ Generate:
    - Price range metrics
    - Volume-based indicators
 
-4. Model Training
-   
+### 4. Model Training
 Train and compare:
    - Baseline stock-only regression models
    - Sentiment-enhanced models
    - TF-IDF-enhanced models
 
-5. Evaluation
-   
+### 5. Evaluation
 Evaluate on:
    - 2023 test split
    - January 2024 forecasting period
