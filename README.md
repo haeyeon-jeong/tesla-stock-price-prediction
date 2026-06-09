@@ -28,41 +28,6 @@ The scraped datasets were cleaned, deduplicated, merged, and filtered into a uni
   
 ---
 
-## Key Features
-
-- Data Collection:
-  - Yahoo Finance stock data retrieval
-  - Automated NBC News scraping using Selenium
-  - New York Times API integration
-  - Multi-source news aggregation and cleaning
-- Time-Series Feature Engineering:
-  - Open-Close Difference
-  - High-Low Range
-  - Volume Change Percentage
-  - Lagged Closing Prices
-  - Simple Moving Averages (SMA)
-  - Exponential Moving Averages (EMA)
-- NLP Feature Engineering:
-  - TF-IDF text vectorization
-  - TextBlob sentiment analysis
-  - VADER sentiment analysis
-  - Daily article counts
-  - Daily aggregated sentiment scores
-  - Lagged sentiment features
-- Predictive Modeling:
-  - Linear Regression (Baseline)
-  - Linear Regression + SMA Features
-  - Linear Regression + EMA Features
-  - Linear Regression + TF-IDF Features
-  - Linear Regression + TextBlob Features
-  - Linear Regression + VADER Features
-- Comparative Analysis:
-  - Stock-only models
-  - News-enhanced models
-  - January 2024 out-of-sample forecasting evaluation
-    
----
-
 ## Methodology
 
 The pipeline includes:
@@ -98,8 +63,7 @@ The pipeline includes:
 5. Evaluation
   Evaluate on:
    - 2023 test split
-   - January 2024 forecasting period
-     
+   - January 2024 forecasting period     
   Metrics:
    - R²
    - MSE
